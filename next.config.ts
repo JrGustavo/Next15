@@ -1,8 +1,10 @@
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  experimental: {
-      after: true,
-  },
+const nextConfig: NextConfig = {
+    /* config options here */
+    experimental: {
+        after: true
+    }
 };
 
 export default nextConfig;
